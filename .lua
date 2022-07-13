@@ -3,7 +3,7 @@ local Window = Library.CreateLib("For me", "DarkTheme")
 
 
 
--- INFINITE YIELD AND SILENT AIM --
+-- Main --
 local Main = Window:NewTab("Main")
 -- Infinite Yield --
 local MainSection = Main:NewSection("Main")
@@ -23,6 +23,7 @@ end)
 
 if game.PlaceId == 155615604 then
 -- Prison Life --
+    
 local Prisonlife = Window:NewTab("PrisonLife")
 
 -- Silent Gun Spawner --
@@ -37,12 +38,15 @@ PrisonlifeSection:NewButton("Prison life admin", "FE Prisonlife Admin", function
     loadstring(game:HttpGet("https://raw.githubusercontent.com/YourMomClapped/Prison-Life-Admin/main/.Main"))()
 end)
 end
+
 -- Other --
 local Other = Window:NewTab("Other")
 local OtherSection = Other:NewSection("Random Stuff")
+-- Scriptblox.com --
 OtherSection:NewButton("Scriptblox.com", "Scripblox HUB", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/YourMomClapped/Scriptblox.com/main/.lua"))()
 end)
+
 
 
 
