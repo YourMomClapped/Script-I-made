@@ -4,17 +4,23 @@ local Window = Library.CreateLib("For me", "DarkTheme")
 
 
 -- INFINITE YIELD AND SILENT AIM --
-local Inf = Window:NewTab("Main")
+local Main = Window:NewTab("Main")
 -- Infinite Yield --
-local InfSection = Inf:NewSection("Infinite Yield")
-InfSection:NewButton("ButtonText", "ButtonInfo", function()
+local MainSection = Main:NewSection("Infinite Yield")
+MainSection:NewButton("ButtonText", "ButtonInfo", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 end)
 -- Silent Aim --
-local InfSection = Inf:NewSection("Silent Aim")
-InfSection:NewButton("Universial", "Silent Aim", function()
+local MainSection = Main:NewSection("Silent Aim")
+MainSection:NewButton("Universial", "Silent Aim", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Averiias/Universal-SilentAim/main/main.lua"))()
 end)
+-- Chat Spoofer --
+local MainSection = Main:NewSection("Silent Aim")
+MainSection:NewButton("Universial", "Silent Aim", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/YourMomClapped/Chat-Spoofer/main/.Main"))()
+end)
+
 
 if game.PlaceId == 155615604 then
 -- Prison Life --
