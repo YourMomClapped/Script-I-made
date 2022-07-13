@@ -40,7 +40,7 @@ end
 -- Other --
 local Other = Window:NewTab("Other")
 local OtherSection = Other:NewSection("Random Stuff")
-OtherSection:NewButton("Prison life admin", "FE Prisonlife Admin", function()
+OtherSection:NewButton("Scriptblox.com", "Scripblox HUB", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/YourMomClapped/Scriptblox.com/main/.lua"))()
 end)
 
